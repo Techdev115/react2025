@@ -1,0 +1,35 @@
+{
+  "name": "react2025",
+  "description": "Build applications from the future, today.",
+  "private": true,
+  "author": {
+    "name": "Lee Robinson",
+    "email": "me@leerob.io",
+    "url": "https://leerob.io"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "2.2.19"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.34",
+    "autoprefixer": "10.4.0",
+    "postcss": "^8.3.11",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none"
+  }
+}
